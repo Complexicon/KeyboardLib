@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>73a604e1-4ebb-45b9-b940-3a90e9c2ab2f</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>KeyboardLib</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)AsyncKeyboardHook.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)KeyboardHook.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)KeyHookEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TranslationTable.cs" />
+  </ItemGroup>
+</Project>
